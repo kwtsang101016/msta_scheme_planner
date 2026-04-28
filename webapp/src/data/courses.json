@@ -1,0 +1,234 @@
+[
+  {
+    "code": "DDA5001",
+    "title": "Machine Learning",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Builds on linear algebra/probability and benefits from early-term optimization + programming; take after those foundations."
+  },
+  {
+    "code": "DDA5002",
+    "title": "Optimization",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Provides optimization foundations (gradient methods) used in ML/deep learning and many modeling courses; take before ML/deep learning electives."
+  },
+  {
+    "code": "DDA5003",
+    "title": "Stochastic Process",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Stochastic processes is theory-heavy and benefits from probability foundation; recommended after fundamentals."
+  },
+  {
+    "code": "DDA5005",
+    "title": "Stochastic Simulation",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Simulation benefits from probability/stochastic process preparation; recommended after those foundations as an applied complement."
+  },
+  {
+    "code": "DDA6020",
+    "title": "Measure Theoretic Probability",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 1",
+    "reasons": "Measure-theoretic probability is highly theoretical and is a good foundation for advanced theory (e.g., advanced statistics theory). Offer in Term 1 to spread workload across years and avoid stacking multiple heavy theory courses in the same Term 2."
+  },
+  {
+    "code": "DDA6030",
+    "title": "Advanced Statistics Theory",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Advanced theory should follow probability foundations; recommended after students have solid probability/statistics maturity (PhD/theory track)."
+  },
+  {
+    "code": "MBI6005",
+    "title": "Statistical Methods for Biomedical Research",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Offer in Term 1 to support the biomedical pathway (MBI6005 → MBI6006) and avoid stacking both in the same late term. Students can then take ML foundations (e.g., optimization/Python) early and proceed to ML/biomedical ML electives smoothly."
+  },
+  {
+    "code": "MBI6006",
+    "title": "Machine Learning for Biomedical Research",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Biomedical ML is advanced; recommended after machine learning/statistical learning + programming foundations."
+  },
+  {
+    "code": "MDS5111",
+    "title": "Python Programming",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Programming-enabler; recommended early to support coding-heavy electives (ML, deep learning, NLP, data analysis/visualization)."
+  },
+  {
+    "code": "MDS5115",
+    "title": "Big Data Modeling and Management",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Recommended early to build data engineering/big-data workflow before project-based and applied electives."
+  },
+  {
+    "code": "MDS5117",
+    "title": "Data Visualization",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Low prerequisite barrier; pairs well with Python and helps students communicate results throughout the programme."
+  },
+  {
+    "code": "MDS5122",
+    "title": "Deep Learning and Their Applications",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Deep learning is programming- and optimization-heavy; recommended after Python and core/statistical learning exposure."
+  },
+  {
+    "code": "MDS5202",
+    "title": "Applied Regression Analysis",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Applied regression is most valuable after required regression foundations; good follow-up consolidation course."
+  },
+  {
+    "code": "MDS5205",
+    "title": "Time Series Analysis",
+    "units": 3,
+    "type": "Elective-Core",
+    "recommendedTerm": "Term 1",
+    "reasons": "Elective-Core; recommended early (no later than other electives) so students can take other electives (finance/ML/causal) with time series modeling as a tool."
+  },
+  {
+    "code": "MFE5150",
+    "title": "Financial Data Analysis",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Applied elective with broad utility; taking it early leaves room for advanced finance electives (risk/credit) later."
+  },
+  {
+    "code": "MFE5160",
+    "title": "Quantitative Risk Management",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Quant risk management is more effective after financial data analysis and solid probability/statistics preparation."
+  },
+  {
+    "code": "MFE5190",
+    "title": "Credit Risk Modeling and Products",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Credit risk modeling is advanced; recommended after finance/data foundations (and equivalent derivatives/investment background if applicable)."
+  },
+  {
+    "code": "STA5001",
+    "title": "Bayesian & Computational Statistics",
+    "units": 3,
+    "type": "Required",
+    "recommendedTerm": "Term 1",
+    "reasons": "Required and foundational; supports downstream electives (Bayesian/computational methods used widely). Take at programme start."
+  },
+  {
+    "code": "STA5002",
+    "title": "Advanced Regression Methods",
+    "units": 3,
+    "type": "Required",
+    "recommendedTerm": "Term 1",
+    "reasons": "Required and foundational; establishes regression framework used by causal inference, time series, high-dimensional stats, etc. Take at programme start."
+  },
+  {
+    "code": "STA5011",
+    "title": "Multivariate Statistical Analysis",
+    "units": 3,
+    "type": "Elective-Core",
+    "recommendedTerm": "Term 1",
+    "reasons": "Elective-Core; recommended early (no later than other electives) because multivariate tools (PCA, classification, clustering) are assumed in many applied electives."
+  },
+  {
+    "code": "STA5012",
+    "title": "Statistical Learning",
+    "units": 3,
+    "type": "Elective-Core",
+    "recommendedTerm": "Term 1",
+    "reasons": "Elective-Core; recommended early (no later than other electives) because statistical learning underpins deep learning, NLP, AI/RL, and high-dimensional statistics."
+  },
+  {
+    "code": "STA5013",
+    "title": "Causal Inference",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Causal inference relies on regression/probability foundations; recommended after required regression methods."
+  },
+  {
+    "code": "STA5014",
+    "title": "High-dimensional Statistics",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "High-dimensional statistics is advanced and benefits from regression + statistical learning background; recommended after those courses."
+  },
+  {
+    "code": "STA5021",
+    "title": "Capstone Project II",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Designed for Term 2 to produce portfolio-ready work and support internship/job applications for the summer immediately after Term 2."
+  },
+  {
+    "code": "STA5020",
+    "title": "Capstone Project I",
+    "units": 3,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Designed for Term 2 to produce portfolio-ready work and support internship/job applications for the summer immediately after Term 2."
+  },
+  {
+    "code": "STA5022",
+    "title": "Internship Training",
+    "units": 0,
+    "type": "Elective-Depth",
+    "recommendedTerm": "Term 2",
+    "reasons": "Internship Training is scheduled in Term 2 to align with internship/job search and summer placement immediately after Term 2."
+  },
+  {
+    "code": "CSC5051",
+    "title": "Natural Language Processing",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "NLP benefits from prior ML/deep learning + programming; recommended after students have the core toolkit."
+  },
+  {
+    "code": "CSC5010",
+    "title": "Artificial Intelligence",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 1",
+    "reasons": "Broad AI overview fits well early and helps students choose follow-up electives (NLP/RL/deep learning)."
+  },
+  {
+    "code": "AIR5066",
+    "title": "Reinforcement Learning",
+    "units": 3,
+    "type": "Elective-Breath",
+    "recommendedTerm": "Term 2",
+    "reasons": "Reinforcement learning is typically downstream of ML/AI basics; recommended after early-term AI/ML preparation."
+  }
+]

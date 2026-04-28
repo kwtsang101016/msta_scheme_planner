@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Office temp files
+~$*.xlsx
+
+# Artifacts (derived)
+artifacts/
