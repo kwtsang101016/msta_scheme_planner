@@ -68,6 +68,11 @@ export function StudyPlanBuilder({ courses }: Props) {
     setLlmError("");
     setLlmSuggestion("");
 
+    if (process.env.NEXT_PUBLIC_STATIC_EXPORT === "1") {
+      setLlmError("LLM suggestions are disabled on the GitHub Pages (static) deployment.");
+      return;
+    }
+
     if (!apiKey.trim()) {
       setLlmError("No API key provided. Using default track-based plan only.");
       return;
@@ -230,6 +235,11 @@ export function StudyPlanBuilder({ courses }: Props) {
 
       <div className="rounded-2xl border border-black/10 bg-white p-5 shadow-sm">
         <div className="text-sm font-semibold text-zinc-900">Optional LLM suggestions</div>
+        {process.env.NEXT_PUBLIC_STATIC_EXPORT === "1" ? (
+          <div className="mt-2 text-xs text-zinc-600">
+            This deployment is static (GitHub Pages), so server features like `/api/llm` are unavailable.
+          </div>
+        ) : null}
         <div className="mt-2 grid gap-3 md:grid-cols-3">
           <label className="flex flex-col gap-1 md:col-span-2">
             <span className="text-xs text-zinc-600">LLM API key (kept in your browser)</span>
@@ -244,7 +254,7 @@ export function StudyPlanBuilder({ courses }: Props) {
           <button
             className="h-10 rounded-xl bg-zinc-900 px-4 text-sm font-semibold text-white disabled:opacity-50"
             onClick={getLlmSuggestion}
-            disabled={llmLoading}
+            disabled={llmLoading || process.env.NEXT_PUBLIC_STATIC_EXPORT === "1"}
           >
             {llmLoading ? "Generating…" : "Get suggestions"}
           </button>
